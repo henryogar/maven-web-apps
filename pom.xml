@@ -12,7 +12,7 @@
 	<description>Maven Web Project for Java Project</description>
 
 	<organization>
-		<name>Landmark Technologies</name>
+		<name>nexus</name>
 		<url>http://3.83.12.9:8081/repository/maven-central//</url>
 	</organization>
 
