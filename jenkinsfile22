@@ -3,6 +3,7 @@ node{
  stage('1.CodeClone'){
     git credentialsId: 'gitHubCredentials', url: 'https://github.com/henryogar/maven-web-apps.git'
    }
+   /*
  stage('2MavenBuild'){
    sh "${mavenHome}/bin/mvn package"
  }
@@ -33,3 +34,4 @@ node{
   emailext body: '''Hello Team
 Build is Done''', recipientProviders: [developers()], subject: '', to: 'ogarnkongho02@gmail.com'
 } 
+*/
